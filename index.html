@@ -1,0 +1,185 @@
+<!DOCTYPE html> 
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Interactif - Awa Mbengue</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <button id="theme-toggle" class="theme-btn"> Mode Sombre</button>
+
+    <header>
+        <div class="header-container">
+            <img src="./images/awa.jpeg" alt="photo de profil de awa mbengue" class="profil-pic" width="150">
+            <div class="header-text">
+                <h1>Awa Mbengue</h1>
+                <h2>Étudiante en Licence 2 Informatique</h2>
+                <p class="coordinates">📍 Thiès, Dakar Sénégal | 📞 +221 76 260 03 78 | ✉️ awa313414@gmail.com</p>
+            </div>
+        </div>
+        
+        <nav>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about">Présentation</a></li>
+                <li><a href="#formation">Formation</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#experiences">Expériences</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#languages">Langues & Intérêts</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>Présentation</h2>
+            <p>Actuellement étudiante en Licence 2 Informatique à l'Université Iba Der Thiam de Thiès, je me passionne pour le développement web et le génie logiciel. Rigoureuse et motivée, je cherche à consolider mes compétences techniques à travers des projets ambitieux.</p>
+        </section>
+
+        <section id="formation">
+            <h2>Formation</h2>
+            <ul>
+                <li><strong>2026- Présent :</strong> Licence 2 en Informatique – Université Iba Der Thiam de Thiès</li>
+                <li><strong>2024- 2025:</strong> Licence 1 en Informatique – Université Iba Der Thiam de Thiès</li>
+                <li><strong>2024:</strong> Baccalauréat – Lycée de Yeumbeul</li>
+                <li><strong>2020:</strong> BFEM – CEM Momar Marème Diop</li>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h2>Compétences</h2>
+            <div class="skills-container">
+                <div class="skill-block">
+                    <span>Langage C</span>
+                    <div class="progress-bar">
+                        <div class="progress" data-progress="85%"></div>
+                    </div>
+                </div>
+                <div class="skill-block">
+                    <span>HTML5 / CSS3</span>
+                    <div class="progress-bar">
+                        <div class="progress" data-progress="57%"></div>
+                    </div>
+                </div>
+                <div class="skill-block">
+                    <span>JavaScript</span>
+                    <div class="progress-bar">
+                        <div class="progress" data-progress="60%"></div>
+                    </div>
+                </div>
+                <div class="skill-block">
+                    <span>Algorithmique</span>
+                    <div class="progress-bar">
+                        <div class="progress" data-progress="80%"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experiences">
+            <h2>Expériences Professionnelles</h2>
+            
+            <article class="experience-item">
+                <h3>Fondatrice & Gérante — Prestige Bouquets</h3>
+                <p class="date">Depuis Janvier 2025 | Activité Indépendante</p>
+                <p>Création, développement et gestion complète d'une micro-entreprise artisanale spécialisée dans la confection haut de gamme et la commercialisation de bouquets de fleurs et de compositions d'argent personnalisées pour l'événementiel.</p>
+                <ul>
+                    <li><strong>Gestion Commerciale :</strong> Pilotage de la relation client, de la phase d'écoute du besoin à la négociation, jusqu'à la livraison finale.</li>
+                    <li><strong>Stratégie Marketing & Communication :</strong> Conception de la charte visuelle de la marque et création de contenus visuels pour les réseaux sociaux.</li>
+                    <li><strong>Logistique & Gestion Financière :</strong> Application de compétences analytiques pour optimiser le suivi des stocks et la tenue du budget prévisionnel.</li>
+                </ul>
+            </article>
+
+            <article class="experience-item">
+                <h3>Développeuse Web Front-End (Projet Académique) — Université de Thiès</h3>
+                <p class="date">Juin 2026</p>
+                <p>Conception et architecture complète d'une application web responsive servant de CV interactif et vitrine professionnelle, respectant un cahier des charges universitaire rigoureux.</p>
+                <ul>
+                    <li><strong>Structure & Sémantique :</strong> Création d'une structure de document valide W3C en utilisant les balises sémantiques HTML5.</li>
+                    <li><strong>Mise en page CSS3 :</strong> Conception d'une interface utilisateur moderne, fluide et adaptative (Responsive Web Design) avec l'exploitation des architectures Flexbox et CSS Grid.</li>
+                    <li><strong>Interactivité JavaScript :</strong> Programmation des fonctionnalités dynamiques : gestion du thème, animation fluide des barres au défilement, et menu mobile.</li>
+                    <li><strong>Validation de données :</strong> Développement d'un script de contrôle de saisie côté client pour sécuriser le formulaire de contact.</li>
+                </ul>
+            </article>
+        </section>
+        
+        <section id="projects">
+            <h2>Projets réalisés</h2>
+            <article class="project-item">
+                <h3>Gestion de Bibliothèque en C</h3>
+                <p>Application console permettant de gérer le stock de livres, les emprunts et les utilisateurs à l'aide de structures de données dynamiques (listes chaînées).</p>
+            </article>
+
+            <article class="project-item">
+                <h3>Système de Gestion des Rendez-vous et Dossiers Médicaux</h3>
+                <p>Conception d'une application de gestion pour une clinique : modélisation de la base de données, enregistrement des dossiers patients, suivi de l'historique médical et planification dynamique des rendez-vous des médecins.</p>
+            </article>
+        </section>
+
+        <section id="languages">
+            <h2>Langues & Centres d'intérêt</h2>
+            <div class="two-columns">
+                <div class="col">
+                    <h3>Langues</h3>
+                    <ul>
+                        <li>Français (Courant)</li>
+                        <li>Wolof (Maternelle)</li>
+                        <li>Anglais (Technique)</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>Centres d'intérêt</h3>
+                    <ul>
+                        <li>Veille technologique</li>
+                        <li>Algorithmique</li>
+                        <li>Football / Sport</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Votre nom :</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Votre e-mail :</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message :</label>
+                    <textarea id="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Envoyer</button>
+                <p id="form-error" class="error-msg"></p>
+                <p id="form-success" class="success-msg">Message envoyé avec succès !</p>
+            </form>
+        </section>
+    </main>
+
+    <button id="back-to-top" class="top-btn">↑</button>
+
+    <footer>
+        <p>© 2026 Awa Mbengue - Tous droits réservés.</p>
+        <div class="social-links">
+            <a href="https://github.com" target="_blank">GitHub</a> | 
+            <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
